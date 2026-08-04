@@ -72,8 +72,8 @@ img { display: block; max-width: 100%; }
 .site-header--scrolled .header-inner { background: rgba(248,245,239,.93); box-shadow: 0 10px 32px rgba(74,49,42,.13); }
 
 .brand { display: inline-flex; align-items: center; gap: 12px; flex-shrink: 0; }
-.brand__mark { display: grid; place-items: center; width: 43px; height: 34px; flex: 0 0 43px; }
-.brand__mark svg { width: 100%; height: 100%; overflow: visible; stroke: currentColor; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.brand__mark { display: grid; place-items: center; width: 49px; height: 32px; flex: 0 0 49px; }
+.brand__mark svg { width: 100%; height: 100%; overflow: visible; stroke: currentColor; stroke-width: 2.25; stroke-linecap: round; stroke-linejoin: round; }
 .brand__text { display: grid; line-height: 1; }
 .brand__text strong { font: 500 17px/1.15 var(--serif); letter-spacing: .01em; }
 .brand__text small { margin-top: 4px; font-size: 9px; letter-spacing: .19em; text-transform: uppercase; color: var(--muted); }
@@ -263,7 +263,7 @@ img { display: block; max-width: 100%; }
   :root { --container: calc(100vw - 28px); }
   .site-header { inset-block-start: 10px; }
   .header-inner { min-height: 62px; padding: 7px 7px 7px 14px; }
-  .brand__mark { width: 36px; height: 28px; flex-basis: 36px; }
+  .brand__mark { width: 43px; height: 28px; flex-basis: 43px; }
   .brand__text strong { font-size: 15px; }
   .hero { min-height: auto; padding: 132px 20px 0; display: flex; flex-direction: column; align-items: stretch; }
   .hero__content { padding-top: 0; }
