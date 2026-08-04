@@ -57,9 +57,10 @@ function BrandMark({ compact = false }) {
   return (
     <a className={`brand ${compact ? 'brand--compact' : ''}`} href="#inicio" aria-label="Dra. Luiza Mei — início">
       <span className="brand__mark" aria-hidden="true">
-        <span />
-        <span />
-        <span />
+        <svg viewBox="0 0 72 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M36 16.2C31.4 12.4 27.8 8 21.4 8C14.3 8 12.2 14.7 14.2 21.3C16.4 28.7 21.5 36.7 27 39.2C30.2 40.7 32 38.5 30.8 34.9C27.9 26.7 19.9 20.7 8.5 19.4C9.7 33.1 17.7 43.4 26.1 46" />
+          <path d="M36 16.2C40.6 12.4 44.2 8 50.6 8C57.7 8 59.8 14.7 57.8 21.3C55.6 28.7 50.5 36.7 45 39.2C41.8 40.7 40 38.5 41.2 34.9C44.1 26.7 52.1 20.7 63.5 19.4C62.3 33.1 54.3 43.4 45.9 46" />
+        </svg>
       </span>
       <span className="brand__text">
         <strong>Dra. Luiza Mei</strong>
